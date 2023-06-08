@@ -94,7 +94,7 @@ body {
  
     
     @media screen and (min-width:48em) {
-         max-height:15em;
+        max-height:15em;
         transition:max-height 0.5s
         
     }
@@ -450,3 +450,8 @@ fieldset[disabled] .btn-xl.active {
     background-color: #a2a1a1; /* Add a dark-grey background on hover */
     color: #000000;
     }
+
+    .audio {
+        padding-left: 3.5rem;
+        padding-top: 1.5rem;
+      }
