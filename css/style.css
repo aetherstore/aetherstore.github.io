@@ -428,30 +428,26 @@ fieldset[disabled] .btn-xl.active {
 
 
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 19px; /* Place the button at the bottom of the page */
-    right: 12px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: rgb(82, 78, 78); /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 17px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 25px; /* Increase font size */
+    display: none;
+    position: fixed; 
+    bottom: 19px; 
+    right: 12px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: rgb(86, 86, 86);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 15px; 
+    border-radius: 25px;
+    font-size: 25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     
     }
     
     #myBtn:hover {
-    background-color: #a2a1a1; /* Add a dark-grey background on hover */
+    background-color: #b4b3b3; 
     color: #000000;
     }
 
-    .audio {
-        padding-left: 3.5rem;
-        padding-top: 1.5rem;
-      }
