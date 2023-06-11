@@ -434,19 +434,21 @@ fieldset[disabled] .btn-xl.active {
     right: 12px; 
     z-index: 99; 
     border: none; 
-    outline: none; 
-    background-color: rgb(86, 86, 86);
-    color: rgb(255, 255, 255);
+    outline: none;
     cursor: pointer;
-    padding: 15px; 
+    padding: 1px; 
+    background-color: rgba(0, 0, 0, 0.832);
+    color: #eee;
     border-radius: 25px;
     font-size: 25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    
     }
     
     #myBtn:hover {
-    background-color: #b4b3b3; 
-    color: #000000;
+    background-color: rgba(0, 0, 0, 0.832); 
+    color: #eee;
     }
+
+    
+
+   
