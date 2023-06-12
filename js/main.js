@@ -80,3 +80,10 @@ function topFunction() {
 document.body.scrollTop = 0; // For Safari
 document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+var typed = new typed(".auto-type", {
+	strings: ["Web Developer", "Designer", "Backend Developer"],
+	typeSpeed: 150,
+	backSpeed: 150,
+	loop: true,
+});
