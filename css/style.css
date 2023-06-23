@@ -448,3 +448,19 @@ fieldset[disabled] .btn-xl.active {
     background-color: rgba(0, 0, 0, 0.832); 
     color: #eee;
     }
+
+
+    .card{
+    
+        border:none;
+    }
+    
+    .user-content p{
+        margin-top:5px;
+        font-size:12px;
+    }
+    
+    
+    .ratings i{
+        color:blue;
+    }
